@@ -1,0 +1,35 @@
+#nomePrincipal {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol{
+    list-style-type: upper-alpha;
+}
+
+.titulo {
+    background-color: lightgray; /* Cor de fundo cinza */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 1.5s; /* Transição para a cor de fundo */
+}
+
+.titulo:hover {
+    background-color: darkgray; /* Cor de fundo ao passar o mouse */
+}
+
+.email, .rede-social, .idade {
+    background-color: lightblue;
+}
+
+.minhadiv {
+    border: 2px dashed black;
+    background-color: lightgray;
+    text-align: center;
+}
