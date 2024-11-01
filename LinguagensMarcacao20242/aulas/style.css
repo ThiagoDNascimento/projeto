@@ -9,3 +9,22 @@ h2 {
     
 
 }
+/* Aula do dia 01/11 */
+
+
+
+body{
+    background-color: aquamarine;
+}
+
+
+table{
+    border: 0.5rem solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+
+
+}
