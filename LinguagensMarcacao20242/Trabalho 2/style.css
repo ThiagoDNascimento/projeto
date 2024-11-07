@@ -1,3 +1,31 @@
-body{
-    background-color: #0261fa;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    background-color: aqua;
+    width: 960px;
+    margin: auto;
+}
+
+header,
+footer {
+    background-color: antiquewhite;
+}
+
+.rubik-wet-paint-regular {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+    /*para que serve a propriedade decoration? R: Para alterar a decoração do texto, nesse caso removeu o underline */
+}
+a:hover{
+    color: red;
 }
