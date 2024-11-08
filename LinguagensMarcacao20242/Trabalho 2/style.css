@@ -33,3 +33,25 @@ a:hover{
 img{
     width: 960px;
 }
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 400px;
+    margin: auto;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px, solid, #ddd;
+}
+
+tbody tr:hover{
+    background-color: gray;
+}
+
+table img{
+    border-radius: 25px;
+    width: 100%;
+}
