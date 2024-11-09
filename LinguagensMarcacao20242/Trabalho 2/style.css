@@ -64,3 +64,12 @@ input[type="text"], textarea{
     border-radius: 5px;    
     box-sizing: border-box;
 }
+
+input[type="text"]:focus, textarea:focus{
+    background-color: gray;
+    outline: none;
+}
+
+input[type="text"]:hover, textarea:hover{
+    background-color: #ae9494;
+}
