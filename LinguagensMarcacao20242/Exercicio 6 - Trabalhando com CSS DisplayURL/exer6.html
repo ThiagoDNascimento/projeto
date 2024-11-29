@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Usuário</title>
+    <link rel="stylesheet" href="exer6.css">
+</head>
+
+<body>
+    <form action="#" method="post">
+        <h2>Cadastrar usuário</h2>
+
+        <fieldset>
+            <h3><span class="numero">1</span> Dados pessoais</h3>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="confirmar-senha">Confirmar senha:</label>
+            <input type="password" id="confirmar-senha" name="confirmar-senha" required>
+
+            <label>Idade:</label>
+            <label><input type="radio" name="idade" value="acima_17" required> Acima de 17</label>
+            <label><input type="radio" name="idade" value="abaixo_ou_igual_17" required> Abaixo ou igual a 17</label>
+
+            <h3><span class="numero">2</span>  Perfil</h3>
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+            <label for="perfil-trabalho">Perfil de trabalho:</label>
+            <select id="perfil-trabalho" name="perfil-trabalho" required>
+                <option value="front_end">Front-End Developer</option>
+                <option value="back_end">Back-End Developer</option>
+                <option value="full_stack">Full Stack Developer</option>
+                <option value="design">Designer</option>
+                <option value="analista">Analista</option>
+            </select>
+
+            <label>Interesses:</label>
+            <label><input type="checkbox" name="interesses" value="programador"> Programador</label>
+            <label><input type="checkbox" name="interesses" value="design"> Design</label>
+            <label><input type="checkbox" name="interesses" value="analista"> Analista</label>
+        </fieldset>
+
+        <button type="submit">Enviar dados</button>
+    </form>
+</body>
+
+</html>
