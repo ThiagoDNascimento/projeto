@@ -1,0 +1,76 @@
+/* Reset CSS Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+/* Opcional: Removendo estilos de lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul,
+li {
+
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    background: #873e23;
+}
+
+header {
+    background: #e28743;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background: #eab676;
+}
+
+body{ height:100vh; }
+header{ min-height:50px; }
+footer{ min-height:50px; }
+
+body{
+    display:flex;
+    flex-direction:column;
+    }
+    footer{
+    margin-top:auto;
+    }
